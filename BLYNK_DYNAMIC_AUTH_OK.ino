@@ -12,9 +12,9 @@ It works flawlessly. For example, I implemented it: if Wi-Fi stops working, the 
 */
 
 #define BLYNK_PRINT Serial
-
-#define BLYNK_TEMPLATE_ID "THIS_NO_NEED_AT_ALL"
-#define BLYNK_TEMPLATE_NAME "THIS_NO_NEED_AT_ALL"
+// this 2 lines  need if you can not modified Blynk library. :). 
+#define BLYNK_TEMPLATE_ID "NO_WRITE_HERE!!!" // :)
+#define BLYNK_TEMPLATE_NAME "NO_WRITE_HERE!!!"
 bool blynkRUN_b = false; // flag for Blynk Up/Down
 
 #include <Arduino.h>
