@@ -5,6 +5,8 @@
  Dynamic connection based on a flag from Blynk (or from a sensor, button, etc.) for Wi-Fi and modem connections.
 
 It works flawlessly. For example, I implemented it: if Wi-Fi stops working, the modem reconnects and disables the controller's Wi-Fi. Data is sent to MQTT, Node Red, or the Blynk server without rebooting. Now even engineers can use Blynk, as true connection redundancy has been introduced, overcoming the ridiculous limitation of Blynk's creators.
+ 
+  ========================================================================================================================================================
   I also developed asynchronous connection code for the modem and Wi-Fi, which allows the system to execute code (sensors, buttons) even while the modem and Wi-Fi are connecting. 
   
   I don't intend to offer it for free yet...
